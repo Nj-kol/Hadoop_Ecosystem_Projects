@@ -1,0 +1,35 @@
+{
+   "type":"record",
+   "name":"Student",
+   "namespace": "com.njkol.avro.models.student",
+   "fields":[
+      {
+         "name":"studentID",
+         "type":"int"
+      },
+      {
+         "name":"firstName",
+         "type":"string"
+      },
+      {
+         "name":"lastName",
+         "type":"string"
+      },
+      {
+         "name":"gender",
+         "type":"string"
+      },
+      {
+         "name":"subject",
+         "type":"string"
+      },
+      {
+         "name":"score",
+         "type":"float"
+      },
+      {
+         "name":"timestampInEpoch",
+         "type":"long"
+      }
+   ]
+}
